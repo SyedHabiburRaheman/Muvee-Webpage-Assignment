@@ -5,6 +5,10 @@
     border: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /* @media only screen and (max-width: 320px) and (max-height: 2000px){
      html,body{
          width: 320px;
@@ -14,12 +18,18 @@
 
 @font-face{
     font-family: 'LightFont';
-    src: url(SourceSansPro-Light.ttf);
+    src: url(./Assets/fonts/SourceSansPro-Light.ttf);
+}
+
+@font-face{
+    font-family: 'RegularFont';
+    src: url(./Assets/fonts/SourceSansPro-Regular.ttf);
 }
 
 .mainpic{
     position: relative;
     text-align: center;
+    padding-bottom: 0px;
 }
 
 .mainpic-heading{
@@ -35,9 +45,11 @@
 
 .heading{
     padding: 0px;
+    font-family: LightFont;
 }
 
 .sub-heading{
+    padding-top: 0px;
     font-size: 48px;
     color: #0f0f0f;
     text-align: center;
@@ -55,6 +67,7 @@
 
 .column-1{
     display: flex;
+    justify-content: space-around;
 }
 
 .pic-card-1{
@@ -62,7 +75,7 @@
     width: 100px;
 }
 
-.first-card{
+/* .first-card{
     padding-left: 350px;
     padding-top: 30px;
 }
@@ -70,6 +83,7 @@
 .sub-title{
     font-size: 24px;
     color: #ee4023;
+    font-family: 'RegularFont';
 }
 
 .sub-para{
@@ -77,6 +91,26 @@
     font-size: 18px;
     color: #0f0f0f;
     padding-bottom: 20px;
+    font-family: 'LightFont';
+} */
+
+.customize-text{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.sub-title{
+    font-size: 24px;
+    color: #ee4023;
+    font-family: 'RegularFont';
+}
+
+.customize-text p{
+    padding-top: 20px;
+    font-size: 18px;
+    color: #0f0f0f;
+    padding-bottom: 20px;
+    font-family: 'LightFont';
 }
 
 .flip-btn{
@@ -85,22 +119,36 @@
     padding: 10px 180px 10px 15px;
     font-size: 20px;
     color: #ee4023;
+    font-family: 'RegularFont';
 }
 
 /* Second Section */
 
+#second-section{
+    padding-top: 100px;
+}
+
 .column-2{
     display: flex;
+    /* justify-content: space-around; */
 }
 
 .pic-card-2{
-    padding-left: 477px;
+    padding-left: 85px;
     padding-right: 0px;
     width: 100px;
 }
 
-.second-card{
-    padding-right: 0px;
+.automatic-text{
+    padding-left: 400px;
+}
+
+.automatic-text p{
+    padding-top: 20px;
+    font-size: 18px;
+    color: #0f0f0f;
+    padding-bottom: 20px;
+    font-family: 'LightFont';
 }
 
 .change-btn{
@@ -109,9 +157,14 @@
     padding: 10px 150px 10px 15px;
     font-size: 20px;
     color: #ee4023;
+    font-family: 'RegularFont';
 }
 
 /* Last Section */
+
+#last-section{
+    padding-bottom: 0px;
+}
 
 .form-card{
     position: relative;
@@ -129,11 +182,13 @@
 .form-card h1{
     font-size: 36px;
     color: white;
+    font-family: 'RegularFont';
 }
 
 .form-card p{
     font-size: 20px;
     color: #ffffff;
+    font-family: 'LightFont';
 }
 
 input[type=email] {
@@ -160,11 +215,11 @@ input[type=submit] {
     margin:0px;
     padding:0px;
 }
+
 /* Footer */
 
 #footer{
-    padding-top: 0;
-    padding: 0px;
+    padding-top: 0px;
 }
 
 #footer div{
