@@ -16,6 +16,12 @@ body{
      }
 } */
 
+/* @media only screen and (min-width: 320px) {
+    html,body{
+        width: 320px;
+    }
+} */
+
 @font-face{
     font-family: 'LightFont';
     src: url(./Assets/fonts/SourceSansPro-Light.ttf);
@@ -151,7 +157,7 @@ body{
     font-family: 'LightFont';
 }
 
-.change-btn{
+#changeButton{
     border: 2px solid #ee4023;
     background-color: #ffffff;
     padding: 10px 150px 10px 15px;
