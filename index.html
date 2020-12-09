@@ -6,100 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muvee Webpage</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link href="./assets/fonts/SourceSansPro-Light.ttf">
-    <link href="./assets/fonts/SourceSansPro-Regular.ttf">
 </head>
 
 <body>
-    <header id="mainheader">
-        <div class="mainpic">
-            <img src="./assets/images/hero.jpg" alt="mainpic" style="width: 100%;">
-        </div>
-        <div class="mainpic-heading">
-            Turn your videos & <br>
-            pictures into a movie <br>
-            with just one click
-        </div>
-        <div class="heading">
-            <p class="sub-heading">
-                Tell Amazing Stories
-            </p>
-            <p class="sub-line">
-                Editing software that brings your videos and pictures together in one movie.
-            </p>
-        </div>
-    </header>
-
-    <!-- First Section -->
-    <section id="first-section">
-        <div class="column-1">
-            <div class="pic-card-1">
-                <img src="./assets/images/computer1.jpg" alt="computer1">
-            </div>
-
-            <div class="customize-text">
-                <div class="sub-title">
-                    Customize Your Movements
-                    <p>Bacon ipsum dolor amet laborum drumstick andouille <br>
-                        capium shoulder commodo t-bone ex minim pork loin <br>
-                        velit. Aliquip fatback fugiat proident aliqua culpa cillum <br>
-                        minim jerky meatloaf. Drumstick kevin et velit boudin nisi <br>
-                        ae salam culpa ad.
-                    </p>
-                    <button class="flip-btn">flip</button>
+    <div class="body-wrap">
+        <div class="hero-banner background-spr">
+            <div class="container">
+                <div class="hero-banner-heading">
+                    Turn your videos & <br>
+                    pictures into a movie <br>
+                    with just one click
                 </div>
             </div>
-
         </div>
-    </section>
 
-    <!-- Second Section -->
-    <section id="second-section">
-        <div class="column-2">
-            <div class="automatic-text">
-                <div class="sub-title">
-                    Autometic Crop & Zoom
-                    <p>Meatball ut deserunt and beef ribs. Anim spare ribs kevin mollit. <br>
-                        Ut ham hock mollit, leberkas irure ex lorem corned beef <br>
-                        reprehen derit. Corned beef beef ribs turducken sausage short <br>
-                        ribs in, cupidatat culpa. T-bone bacon sausage, boudin et <br>
-                        occaecat fatback ball tip cupim.
-                    </p>
-                    <input type="button" id="changeButton" value="change" onclick="pictureChange()">
+        <div class="section-1 section-padding">
+            <div class="container text-center">
+                <h2 class="section-1-heading">Tell Amazing Stories</h2>
+                <p class="section-1-sub-heading">Editing software that brings your videos and pictures together in one
+                    movie.</p>
+            </div>
+        </div>
+
+        <div class="section-2 section-padding">
+            <div class="section-2-container row">
+                <div class="left image-container background-spr">
+                    <img src="./assets/images/computer1.jpg" alt="">
+                </div>
+                <div class="right">
+                    <div class="text-content">
+                        <h2 class="title">Customize Your Movements</h2>
+                        <p class="sub-title">Bacon ipsum dolor amet laborum drumstick andouille <br>
+                            capium shoulder commodo t-bone ex minim pork loin <br>
+                            velit. Aliquip fatback fugiat proident aliqua culpa cillum <br>
+                            minim jerky meatloaf. Drumstick kevin et velit boudin nisi <br>
+                            ae salam culpa ad.
+                        </p>
+                        <!-- <a href="#" class="flp-btn">Flip</a> -->
+                        <input type="button" class="flp-btn" value="Flip">
+
+                    </div>
                 </div>
             </div>
+        </div>
 
-            <div class="pic-card-2">
-                <img id="theImage" src="./assets/images/computer2.jpg" alt="computer2">
+        <div class="section-2 section-padding">
+            <div class="section-2-container row">
+                <div class="right">
+                    <div class="text-content">
+                        <h2 class="title">Autometic Crop & Zoom</h2>
+                        <p class="sub-title">Meatball ut deserunt and beef ribs. Anim spare ribs kevin mollit. <br>
+                            Ut ham hock mollit, leberkas irure ex lorem corned beef <br>
+                            reprehen derit. Corned beef beef ribs turducken sausage short <br>
+                            ribs in, cupidatat culpa. T-bone bacon sausage, boudin et <br>
+                            occaecat fatback ball tip cupim.
+                        </p>
+                        <a class="cng-btn" onclick="pictureChange()">Change</a>
+                        <!-- <input type="button" id="cng-Btn" value="change" onclick="pictureChange()"> -->
+                    </div>
+                </div>
+                <div class="left image-container background-spr">
+                    <img src="./assets/images/computer2.jpg" alt="" id="img">
+                    <img src="./assets/images/computer2b.jpg" alt="" class="img2 d-none">
+                </div>
             </div>
-
-        </div>
-    </section>
-
-    <!-- Last Section -->
-    <section id="last-section">
-        <div class="closing-photo">
-            <img src="./assets/images/closing-photo.jpg" alt="closing-photo" style="width: 100%;">
         </div>
 
-        <div class="form-card">
-            <h1>Free trial. No credit card. No Hassle.</h1>
-            <p>Just enter your email address below and begin capturing moments.</p>
-            <br>
-            <br>
-            <form action="./index.html">
-                <input type="email" placeholder="Enter your email address">
-                <input type="submit" value="START FREE TRIAL">
-            </form>
+        <div class="section-4 background-spr">
+            <div class="section-4-content bg text-center">
+                <h2>Free trial. No credit card. No Hassle.</h2>
+                <p>Just enter your email address below and begin capturing moments.</p>
+                <br>
+                <br>
+                <form action="./index.html">
+                    <input type="email" placeholder="Enter your email address" class="input">
+                    <input type="submit" value="START FREE TRIAL" class="input btn-input">
+                </form>
+            </div>
         </div>
-    </section>
 
-    <footer id="footer">
-        <img src="./assets/images/geometric-band.jpg" alt="footerpic" style="width: 100%;">
-        <div>
-            <span>Sitemap | Legal | Blog</span>
-        </div>
-    </footer>
+        <footer class="footer background-spr text-center">
+            <ul>
+                <li>Sitemap</li>
+                <li>|</li>
+                <li>Legal</li>
+                <li>|</li>
+                <li>Blog</li>
+            </ul>
+        </footer>
+
+    </div>
 
     <!-- JavaScript -->
     <script async src="./assets/js/script.js"></script>
