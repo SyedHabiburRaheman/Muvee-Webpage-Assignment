@@ -24,12 +24,12 @@ body{
 
 @font-face{
     font-family: 'LightFont';
-    src: url(./Assets/fonts/SourceSansPro-Light.ttf);
+    src: url(./assets/fonts/SourceSansPro-Light.ttf);
 }
 
 @font-face{
     font-family: 'RegularFont';
-    src: url(./Assets/fonts/SourceSansPro-Regular.ttf);
+    src: url(./assets/fonts/SourceSansPro-Regular.ttf);
 }
 
 .mainpic{
