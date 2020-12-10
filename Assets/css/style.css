@@ -1,237 +1,322 @@
-
-*{
-    padding: 0;
-    margin: 0;
-    border: 0;
+* {
+	padding: 0;
+	margin: 0;
 }
 
-body{
-    overflow-x: hidden;
+@font-face {
+	font-family: 'Light';
+    src: url('../fonts/SourceSansPro-Light.ttf');
+    /* src: url('/assets/fonts/SourceSansPro-Light.ttf'); */
 }
 
-/* @media only screen and (max-width: 320px) and (max-height: 2000px){
-     html,body{
-         width: 320px;
-         height: 2000px;
-     }
-} */
-
-/* @media only screen and (min-width: 320px) {
-    html,body{
-        width: 320px;
-    }
-} */
-
-@font-face{
-    font-family: 'LightFont';
-    src: url(./assets/fonts/SourceSansPro-Light.ttf);
+@font-face {
+	font-family: 'Regular';
+    src: url('../fonts/SourceSansPro-Regular.ttf');
+    /* src: url('/assets/fonts/SourceSansPro-Regular.ttf'); */
 }
 
-@font-face{
-    font-family: 'RegularFont';
-    src: url(./assets/fonts/SourceSansPro-Regular.ttf);
+html {
+	height: 100%;
 }
 
-.mainpic{
-    position: relative;
+
+body {
+	width: 100%;
+    background-color: #ffffff;
+    color: #000;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+.text-center{
     text-align: center;
-    padding-bottom: 0px;
 }
 
-.mainpic-heading{
-    font-family: LightFont;
+.section-padding{
+    padding: 2rem 0;
+}
+
+.background-spr{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    max-width: calc(100% - 5rem);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.hero-banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/hero.jpg");
+}
+
+.hero-banner-heading{
     font-size: 42px;
-    font-style: normal;
-    font-weight: lighter;
-    color: #ffffff;
-    position: absolute;
-    top: 40px;
-    left: 40px;
+    font-family: 'Light';
+    padding: 3rem 6rem;
+    color:  #ffffff;
 }
 
-.heading{
-    padding: 0px;
-    font-family: LightFont;
+.section-1{
+    font-family: 'Light';
 }
 
-.sub-heading{
-    padding-top: 0px;
+.section-1-heading,
+.section-1-sub-heading{
+    font-family: 'Light';
+    color: #0f0f0f;
+}
+
+.section-1-heading{
     font-size: 48px;
-    color: #0f0f0f;
-    text-align: center;
 }
 
-.sub-line{
+.section-1-sub-heading{
     font-size: 24px;
-    color: #0f0f0f;
-    text-align: center;
-    padding-bottom: 100px;
 }
 
-
-/* First Section */
-
-.column-1{
+.section-2-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.pic-card-1{
-    padding: 0px;
-    width: 100px;
+.row{
+    vertical-align: middle;
+    align-items: center;
 }
 
-/* .first-card{
-    padding-left: 350px;
-    padding-top: 30px;
+.right{
+    width: 40%;
+    margin: 0 auto;
 }
 
-.sub-title{
-    font-size: 24px;
-    color: #ee4023;
-    font-family: 'RegularFont';
-}
-
-.sub-para{
-    padding-top: 20px;
-    font-size: 18px;
-    color: #0f0f0f;
-    padding-bottom: 20px;
-    font-family: 'LightFont';
+/* .text-content{
+    padding-left: 15px;
+    padding-right: 15px;
 } */
 
-.customize-text{
-    padding-left: 50px;
-    padding-top: 30px;
+.title{
+    font-size: 24px;
+    color: #ee4023;
+    font-family: 'Regular';
 }
 
 .sub-title{
-    font-size: 24px;
-    color: #ee4023;
-    font-family: 'RegularFont';
-}
-
-.customize-text p{
-    padding-top: 20px;
+    font-family: Light;
     font-size: 18px;
     color: #0f0f0f;
-    padding-bottom: 20px;
-    font-family: 'LightFont';
+    padding: 1rem 0;
 }
 
-.flip-btn{
-    border: 2px solid #ee4023;
-    background-color: #ffffff;
-    padding: 10px 180px 10px 15px;
+.flp-btn{
     font-size: 20px;
-    color: #ee4023;
-    font-family: 'RegularFont';
-}
-
-/* Second Section */
-
-#second-section{
-    padding-top: 100px;
-}
-
-.column-2{
-    display: flex;
-    /* justify-content: space-around; */
-}
-
-.pic-card-2{
-    padding-left: 85px;
-    padding-right: 0px;
-    width: 100px;
-}
-
-.automatic-text{
-    padding-left: 400px;
-}
-
-.automatic-text p{
-    padding-top: 20px;
-    font-size: 18px;
-    color: #0f0f0f;
-    padding-bottom: 20px;
-    font-family: 'LightFont';
-}
-
-#changeButton{
+    font-family: 'Regular';
+    cursor: pointer;
+    text-decoration: none;
     border: 2px solid #ee4023;
-    background-color: #ffffff;
-    padding: 10px 150px 10px 15px;
-    font-size: 20px;
+    background-color: #fff;
     color: #ee4023;
-    font-family: 'RegularFont';
+    padding: .25rem 10rem .25rem 1rem;
+    margin-top: 2rem;
+    float: left;
 }
 
-/* Last Section */
-
-#last-section{
-    padding-bottom: 0px;
+.cng-btn{
+    font-size: 20px;
+    font-family: 'Regular';
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid #ee4023;
+    background-color: #fff;
+    color: #ee4023;
+    padding: .25rem 10rem .25rem 1rem;
+    margin-top: 2rem;
+    float: left;
 }
 
-.form-card{
+.section-4{
+    background-image: url('../images/closing-photo.jpg');
+    height: 150vh;
     position: relative;
+}
+
+.bg{
+    background-color: #000;
+    opacity: .8;
+    color: #ffffff;
+}
+
+.text-center{
     text-align: center;
-    bottom: 500px;
-    padding: 50px;
-    margin: 10px 220px 50px 220px;
-    outline: none;
-    background-color: black;
-    /* opacity: 50%; */
-    filter: alpha(opacity=60);
-    opacity: 0.6;
 }
 
-.form-card h1{
+.section-4-content{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 50%;
+    margin: 0 auto;
+    padding: 60px 85px;
+}
+
+.section-4-content h6{
+    font-family: 'Regular';
     font-size: 36px;
-    color: white;
-    font-family: 'RegularFont';
+    color: #ffffff;
 }
 
-.form-card p{
+.section-4-content p{
+    font-family: 'Light';
     font-size: 20px;
     color: #ffffff;
-    font-family: 'LightFont';
 }
 
-input[type=email] {
-    background-color: white;
-    color: lightgrey;
-    box-sizing: border-box;
+.input{
     width: 30%;
-    padding: 10px 5px;
-     
+    padding: 8px 25px;
+    border: none;
+    outline: none;
 }
 
-input[type=submit] {
-    background-color: orangered;
+.btn-input{
+    width: 30%;
+    padding: 8px 5px;
+    border: none;
+    outline: none;
+    background-color: #ee4023;
     color: #ffffff;
-    font-weight: bold;
-    box-sizing: border-box;
-    width: 20%;
-    padding: 10px 5px;
+    cursor: pointer;
+    margin-left: -3px;
+    font-weight: bolder;
+}
+
+.input, .btn-input{
     opacity: 100%;
 }
 
-.closing-photo{
-    position: relative;
-    margin:0px;
-    padding:0px;
+.footer{
+    background-image: url('../images/geometric-band.jpg');
+    padding: 3rem 0;
+    margin-top: 1rem;
 }
 
-/* Footer */
-
-#footer{
-    padding-top: 0px;
+.footer ul{
+    width: 50%;
+    margin: 0 auto;
 }
 
-#footer div{
-    position: relative;
-    text-align: center;
-    bottom: 75px;
+.footer ul li{
+    display: inline;
+    font-family: 'Light';
     font-size: 16px;
     color: #ffffff;
+}
+
+@media (max-width: 770px){
+    body{
+        overflow-x: hidden;
+    }    
+    .text-center{
+        text-align: center;
+    }
+    .hero-banner{
+        width: 850px;
+    }
+    .section-4{
+        width: 850px;
+    }
+    .section-4-content{
+        width: 80%;
+        top: 25%;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .input{
+        width: 50%;
+    }
+    .btn-input{
+        width: 50%;
+    }
+    .btn-input{
+        margin: 0;
+    }
+    .right{
+        width: 80%;
+        padding-bottom: 1rem;
+    }
+    .footer{
+        width: 850px;
+    }
+}
+
+@media (max-width: 576px){
+    .section-4-content{
+        width: 80%;
+        top: 25%;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .input{
+        width: 96.5%;
+    }
+    .btn-input{
+        width: 100%;
+    }
+    .btn-input{
+        margin: 0;
+    }
+}
+
+@media (max-width : 380px){
+    body{
+        overflow-x: hidden;
+    }    
+    .text-center{
+        text-align: center;
+    }
+    .hero-banner{
+        width: 850px;
+    }
+    .section-4{
+        width: 850px;
+    }
+    .section-4-content{
+        width: 80%;
+        top: 25%;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .input{
+        width: 50%;
+    }
+    .btn-input{
+        width: 50%;
+    }
+    .btn-input{
+        margin: 0;
+    }
+    .right{
+        width: 80%;
+        padding-bottom: 1rem;
+    }
+    .footer{
+        width: 850px;
+    }
+}
+
+.d-none{
+    display: none;
 }
