@@ -1,17 +1,20 @@
 * {
-	padding: 0;
+    padding: 0;
+    /* padding-left: 100px;
+    padding-right: 100px; */
 	margin: 0;
 }
 
 @font-face {
 	font-family: 'Light';
-    src: url('../fonts/SourceSansPro-Light.ttf');
+    src: url('./Assets/fonts/SourceSansPro-Light.ttf');
     /* src: url('/Assets/fonts/SourceSansPro-Light.ttf'); */
 }
 
 @font-face {
 	font-family: 'Regular';
-    src: url('../fonts/SourceSansPro-Regular.ttf');
+    src: url('./Assets/fonts/SourceSansPro-Regular.ttf');
+    /* src: url('../fonts/SourceSansPro-Regular.ttf'); */
     /* src: url('/Assets/fonts/SourceSansPro-Regular.ttf'); */
 }
 
@@ -20,11 +23,14 @@ html {
 }
 
 body {
+    padding-left: 100px;
+    padding-right: 100px;
 	width: 100%;
     background-color: #ffffff;
     color: #000;
 	box-sizing: border-box;
-	overflow-x: hidden;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
 }
 
 .text-center{
@@ -50,8 +56,9 @@ body {
 
 .hero-banner{
     width: 100%;
+    position: relative;
     height: 100vh;
-    background-image: url("../images/hero.jpg");
+    background-image: url("./Assets/images/hero.jpg");
 }
 
 .hero-banner-heading{
@@ -95,10 +102,19 @@ body {
     margin: 0 auto;
 }
 
+.right2{
+    width: 60%;
+    margin: 0 auto;
+}
+
 /* .text-content{
-    padding-left: 15px;
+    padding-left: 0px;
     padding-right: 15px;
 } */
+
+.text-content {
+    text-align: justify;
+}
 
 .title{
     font-size: 24px;
@@ -140,7 +156,7 @@ body {
 }
 
 .section-4{
-    background-image: url('../images/closing-photo.jpg');
+    background-image: url('./Assets/images/closing-photo.jpg');
     height: 150vh;
     position: relative;
 }
@@ -202,7 +218,7 @@ body {
 }
 
 .footer{
-    background-image: url('../images/geometric-band.jpg');
+    background-image: url('./Assets/images/geometric-band.jpg');
     padding: 3rem 0;
     margin-top: 1rem;
 }
