@@ -62,12 +62,15 @@ body {
     position: relative;
     height: 100vh;
     background-image: url("./Assets/images/hero.jpg");
+    /* background-size: 1200px 650px; */
+    /* background-size: contain; */
+    /* background-attachment:scroll; */
 }
 
 .hero-banner-heading{
     font-size: 42px;
     font-family: 'Light';
-    padding: 3rem 6rem;
+    padding: 5rem 5rem;
     color:  #ffffff;
 }
 
