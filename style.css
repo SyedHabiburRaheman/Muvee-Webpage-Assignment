@@ -328,7 +328,7 @@ body {
     .hero-banner{
         width: 100%;
         position:relative;
-        height: 110vh;
+        height: 60vh;
         background-image: url("./Assets/images/hero.jpg");
         background-size: 100%;
     }
@@ -347,7 +347,7 @@ body {
 
     .section-4{
         background-image: url('./Assets/images/closing-photo.jpg');
-        height: 150vh;
+        height: 90vh;
         position: relative;
         background-size: 100%;
         background-position: bottom;
@@ -381,7 +381,7 @@ body {
     .hero-banner{
         width: 100%;
         position:relative;
-        height: 90vh;
+        height: 50vh;
         background-image: url("./Assets/images/hero.jpg");
         background-size: 100%;
     }
@@ -420,7 +420,7 @@ body {
 
     .section-4{
         background-image: url('./Assets/images/closing-photo.jpg');
-        height: 140vh;
+        height: 80vh;
         position: relative;
         background-size: 100%;
         background-position: bottom;
@@ -468,7 +468,7 @@ body {
     .hero-banner{
         width: 100%;
         position:relative;
-        height: 70vh;
+        height: 40vh;
         background-image: url("./Assets/images/hero.jpg");
         background-size: 100%;
     }
@@ -558,7 +558,7 @@ body {
 
     .section-4{
         background-image: url('./Assets/images/closing-photo.jpg');
-        height: 100vh;
+        height: 60vh;
         position: relative;
         background-size: 100%;
         background-position: bottom;
@@ -622,7 +622,7 @@ body {
         .hero-banner{
             width: 100%;
             position:relative;
-            height: 40vh;
+            height: 20vh;
             background-image: url("./Assets/images/hero.jpg");
             background-size: 100%;
         }
@@ -637,11 +637,11 @@ body {
         .section-1-heading{
             font-family: 'Light';
             color: #0f0f0f;
-            font-size: 40px;
+            font-size: 42px;
         }
 
         .section-1-sub-heading {
-            font-size: 20px;
+            font-size: 18px;
         }
 
         .flex-container {
@@ -658,10 +658,6 @@ body {
         #computer1{
             width: 400px;
         }
-    
-        /* .text-content{
-            padding-left: 20px;
-        } */
 
         .right .text-content .title {
             font-size: 22px;
@@ -709,7 +705,7 @@ body {
 
         .section-4{
             background-image: url('./Assets/images/closing-photo.jpg');
-            height: 65vh;
+            height: 40vh;
             position: relative;
             background-size: 100%;
             background-position: bottom;
@@ -818,7 +814,7 @@ body {
         .hero-banner{
             width: 100%;
             position:relative;
-            height: 30vh;
+            height: 18vh;
             background-image: url("./Assets/images/hero.jpg");
             background-size: 100%;
         }
@@ -933,7 +929,7 @@ body {
     
         .section-4{
             background-image: url('./Assets/images/closing-photo.jpg');
-            height: 50vh;
+            height: 25vh;
             position: relative;
             background-size: 100%;
             background-position: bottom;
@@ -959,6 +955,7 @@ body {
             font-family: 'Light';
             font-size: 8px;
             color: #ffffff;
+            display: inline;
         }
 
         .input{
