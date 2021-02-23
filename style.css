@@ -23,7 +23,7 @@ html {
 body {
     margin-left: auto;
     margin-right: auto;
-    max-width: 1400px;
+    max-width: 1800px;
     width: 100%;
     background-color: #ffffff;
     color: #000;
@@ -62,10 +62,11 @@ body {
 .hero-banner{
     width: 100%;
     position: relative;
-    height: 80vh;
+    /* height: 80vh; */
     background-image: url("./Assets/images/hero.jpg");
     background-size: 100%;
     background-position: top;
+    padding-bottom: 600px;
 }
 
 .hero-banner-heading{
@@ -197,7 +198,8 @@ body {
 
 .section-4{
     background-image: url('./Assets/images/closing-photo.jpg');
-    height: 110vh;
+    /* height: 110vh; */
+    padding-top: 1200px;
     position: relative;
     background-size: 100%;
     background-position:bottom;
@@ -215,37 +217,40 @@ body {
 
 .section-4-content{
     position: absolute;
-    top: 55%;
-    left: 0;
+    top: 52%;
+    left: 30px;
     right: 0;
-    width: 50%;
+    width: 65%;
     margin: 0 auto;
-    padding: 60px 85px;
+    padding: 50px 0px;
 }
 
 .section-4-content h3{
     font-family: 'Regular';
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 400;
     color: #ffffff;
+    word-spacing: 5px;
 }
 
 .section-4-content p{
     font-family: 'Light';
     font-size: 20px;
     color: #ffffff;
+    padding-bottom: 20px;
+    word-spacing: 3px;
 }
 
 .input{
-    width: 30%;
-    padding: 8px 25px;
+    width: 28%;
+    padding: 10px 25px;
     border: none;
     outline: none;
 }
 
 .btn-input{
-    width: 30%;
-    padding: 8px 5px;
+    width: 20%;
+    padding: 10px 5px;
     border: none;
     outline: none;
     background-color: #ee4023;
@@ -253,7 +258,6 @@ body {
     cursor: pointer;
     margin-left: -3px;
     font-weight: bolder;
-    /* opacity: 1; */
 }
 
 .btn-input:hover {
@@ -326,7 +330,8 @@ body {
     .hero-banner{
         width: 100%;
         position:relative;
-        height: 70vh;
+        /* height: 70vh; */
+        padding-bottom: 300px;
         background-image: url("./Assets/images/hero.jpg");
         background-size: 100%;
     }
@@ -345,10 +350,11 @@ body {
 
     .section-4{
         background-image: url('./Assets/images/closing-photo.jpg');
-        height: 100vh;
+        /* height: 100vh; */
         position: relative;
         background-size: 100%;
         background-position: bottom;
+        padding-top: 900px;
     }
 
 }
@@ -379,7 +385,8 @@ body {
     .hero-banner{
         width: 100%;
         position:relative;
-        height: 50vh;
+        /* height: 50vh; */
+        padding-bottom: 280px;
         background-image: url("./Assets/images/hero.jpg");
         background-size: 100%;
     }
@@ -418,7 +425,8 @@ body {
 
     .section-4{
         background-image: url('./Assets/images/closing-photo.jpg');
-        height: 80vh;
+        /* height: 80vh; */
+        padding-top: 800px;
         position: relative;
         background-size: 100%;
         background-position: bottom;
@@ -427,6 +435,10 @@ body {
     .section-4-content {
         width: 60%;
         padding: 50px 30px;
+    }
+
+    .btn-input{
+        width: 25%;
     }
 
     .footer{
@@ -466,7 +478,8 @@ body {
     .hero-banner{
         width: 100%;
         position:relative;
-        height: 40vh;
+        /* height: 40vh; */
+        padding-bottom: 180px;
         background-image: url("./Assets/images/hero.jpg");
         background-size: 100%;
     }
@@ -556,15 +569,16 @@ body {
 
     .section-4{
         background-image: url('./Assets/images/closing-photo.jpg');
-        height: 60vh;
+        /* height: 60vh; */
+        padding-top: 600px;
         position: relative;
         background-size: 100%;
         background-position: bottom;
     }
 
     .section-4-content {
-        width: 70%;
-        padding: 25px 20px;
+        width: 80%;
+        padding: 25px 0px;
     }
 
     .section-4-content p {
@@ -620,7 +634,8 @@ body {
         .hero-banner{
             width: 100%;
             position:relative;
-            height: 25vh;
+            /* height: 25vh; */
+            padding-bottom: 80px;
             background-image: url("./Assets/images/hero.jpg");
             background-size: 100%;
         }
@@ -703,7 +718,8 @@ body {
 
         .section-4{
             background-image: url('./Assets/images/closing-photo.jpg');
-            height: 40vh;
+            /* height: 40vh; */
+            padding-top: 300px;
             position: relative;
             background-size: 100%;
             background-position: bottom;
@@ -711,8 +727,10 @@ body {
 
         .section-4-content {
             width: 80%;
-            padding: 10px 20px;
+            padding: 10px 10px;
             background-position: top;
+            display: inline-block;
+            top: 40%;
         }
 
         .section-4-content h3 {
@@ -724,20 +742,21 @@ body {
 
         .section-4-content p {
             font-family: 'Light';
-            font-size: 12px;
+            font-size: 10px;
             color: #ffffff;
+            padding-bottom: 0px;
         }
 
         .input{
-            width: 80%;
-            padding: 5px 25px;
+            width: 60%;
+            padding: 3px 20px;
             border: none;
             outline: none;
         }
         
         .btn-input{
-            width: 50%;
-            padding: 5px 5px;
+            width: 40%;
+            padding: 3px 5px;
             border: none;
             outline: none;
             background-color: #ee4023;
@@ -812,7 +831,8 @@ body {
         .hero-banner{
             width: 100%;
             position:relative;
-            height: 18vh;
+            /* height: 18vh; */
+            padding-bottom: 80px;
             background-image: url("./Assets/images/hero.jpg");
             background-size: 100%;
         }
@@ -927,7 +947,8 @@ body {
     
         .section-4{
             background-image: url('./Assets/images/closing-photo.jpg');
-            height: 25vh;
+            /* height: 25vh; */
+            padding-top: 250px;
             position: relative;
             background-size: 100%;
             background-position: bottom;
@@ -935,29 +956,31 @@ body {
 
         .section-4-content {
             position: absolute;
-            top: 45%;
-            width: 75%;
-            padding: 2px 20px;
+            top: 50%;
+            left: 0;
+            width: 80%;
+            padding: 5px 5px;
             background-position: top;
         }
 
         .section-4-content h3 {
-            padding-top: 10px;
             font-family: 'Regular';
-            font-size: 16px;
+            font-size: 15px;
             font-weight: lighter;
             color: #ffffff;
+            padding-bottom: 0px;
+            word-spacing: 2px;
         }
 
         .section-4-content p {
             font-family: 'Light';
             font-size: 8px;
             color: #ffffff;
-            display: inline;
+            word-spacing: 2px;
         }
 
         .input{
-            width: 70%;
+            width: 60%;
             padding: 3px 15px;
             border: none;
             outline: none;
@@ -965,7 +988,8 @@ body {
         }
         
         .btn-input{
-            width: 60%;
+            width: 50%;
+            padding: 3px 15px;
             border: none;
             outline: none;
             background-color: #ee4023;
@@ -998,7 +1022,7 @@ body {
         .footer ul li{
             display: inline;
             font-family: 'Light';
-            font-size: 13px;
+            font-size: 12px;
             color: #ffffff;
         }
         
